@@ -1,109 +1,242 @@
 body {
-    font-family: 'Gowun Dodum', sans-serif;
+    width: 80%;
 }
-h1, h2, h3, .navvar-brand {
+html {
+    max-width: 100%;
+}
+body, html {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black !important;
+    margin: 0px 10%;
+}
+#brand {
+    display: block;
+    width: 100%;
+    height: 3%;
+    padding: 5px 7px;
+    position: fixed;
+    left: 10px;
+    background-color: white;
+    margin-top: 0;
+    line-height: 240%;
+    z-index: 1;
+}
+#brand > a, #brand > #update {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+#brand > a, #topBtn > button {
+    font-size: 15pt !important;
     font-weight: bold;
 }
-li, p {
-    font-size: 15pt;
+#brand > a:hover {
+    color: #2c72f5;
+}
+#brand > #update {
+    font-size: 12pt !important;
+    float: right;
+    position: relative;
+    right: 30px;
+}
+#contact > div {
+    display: inline-block;
+}
+#contact > div:first-child {
+    height: auto;
+    float: left;
+    position: relative;
+    bottom: 25px;
+}
+#contact > div:nth-child(2) > span {
+    width: 100%;
+    margin-bottom: 10px;
+    float: right;
+}
+#contact img {
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 6px;
+}
+#education {
+    padding-bottom: 290px;
+    margin-bottom: 1px;
+}
+#education > div:nth-child(2) > div:nth-child(2) > span,
+#education > div:nth-child(2) > div:nth-child(2) > span ~ div,
+#etc > div:first-child ~ div > div:nth-child(2) > span:first-child {
+    color: #4b4f56;
+}
+#etc {
+    padding-bottom: 130px;
+    margin-bottom: 1px;
+}
+#etc > div:first-child ~ div > div:nth-child(2) > span:nth-child(3) {
+    color: #757b85;
+}
+#introduce > div:nth-child(2), #introduce ~ div > div:nth-child(2) {
+    font-size: 15pt !important;
+}
+#resume {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#resume > div:first-child {
+    font-size: 30pt !important;
+}
+#resume > div:first-child ~ div > div:first-child > h2 {
+    font-size: 21pt !important;
+    color: #2c72f5;
+}
+#resume > div:nth-child(3) {
+    font-size: 21pt;
+    padding: 10px auto;
+    margin: 15px auto;
+}
+#skill {
+    margin-bottom: 80px;
+}
+#skill > div:first-child ~ div > div:first-child,
+#education > div:nth-child(2) > div > span,
+#etc > div:first-child ~ div > div:nth-child(odd) > span {
+    color: #7180a0;
+}
+#topBtn > button {
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: italic;
+    text-decoration: none;
+    background-color: white;
+    color: darkgray;
+    border: 0;
+    cursor: pointer;
+}
+#topBtn > button:hover {
+    color: #74757a;
+}
+#toy {
+    margin-bottom: 625px;
+}
+
+/* 범용 클래스 */
+.b-1-s-b {
+    border: 1px solid black;
+}
+.d-inline-block {
+    display: inline-block !important;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.float-clear {
+    clear: both;
+}
+.fs-13 {
+    font-size: 13pt !important;
+}
+.fs-14 {
+    font-size: 14pt !important;
+}
+.fs-15 {
+    font-size: 15pt !important;
+}
+.fs-16 {
+    font-size: 16pt !important;
+}
+.fw-bold {
     font-weight: bold;
 }
-#arrow {
-    width: 100%;
-    height: 250px;
-    background-color: aliceblue;
+.mb-7 {
+    margin-bottom: 7px;
 }
-#arrow > div > h2 {
-    position: relative;
-    bottom: 40px;
+.mb-10 {
+    margin-bottom: 10px;
 }
-#arrow1 {
-    position: relative;
-    bottom: 30px;
+.mb-15 {
+    margin-bottom: 15px;
 }
-#arrow2 {
-    position: relative;
-    bottom: 50px;
+.mb-20 {
+    margin-bottom: 20px;
 }
-#c_toy {
-    background-color: #e9eff2;
+.mb-21 {
+    margin-bottom: 21px;
 }
-#c_intro > div > h2 > img, #toy > h2 > img, #team > h2 > img {
-    position: relative;
-    bottom: 5px;
-    right: 1px;
+.mb-22 {
+    margin-bottom: 22px;
 }
-#contact > p {
-    font-size: 13pt!important;
-    position: relative;
-    bottom: 30px;
+.mb-24 {
+    margin-bottom: 24px;
 }
-.container {
-    padding-top: 70px;
-    padding-bottom: 90px;
+.mb-30 {
+    margin-bottom: 30px;
 }
-.container h2, .container h3 {
-    padding-top: 35px;
+.mb-40 {
+    margin-bottom: 40px;
 }
-.carousel-caption {
-    position: relative;
-    bottom: 350px;
-    left: 0px;
-} 
-.carousel-caption > p, #toy > h2 + p, #contact > p {
-    margin-top: 15px;
+.mb-50 {
+    margin-bottom: 50px;
 }
-.carousel-item, .carousel-item > img {
-    width: 100%;
-    height: 600px;
+.mb-80 {
+    margin-bottom: 80px;
 }
-.col-sm-4 img {
-    width: 100%;
+.ml-10 {
+    margin-left: 10px;
 }
-.col-md-8 {
+.ml-11 {
+    margin-left: 11px;
+}
+.mt-1 {
+    margin-top: 1px;
+}
+.mt-20 {
     margin-top: 20px;
 }
-.fa-id-badge + p > h3 {
-    width: 550px;
-    margin: 10px auto;
+.mt-30 {
+    margin-top: 30px;
 }
-.fa-id-badge + p > h3 + ul {
-    width: 500px;
-    margin: 5px auto;
+.mt-40 {
+    margin-top: 40px;
 }
-.nav-link {
-    font-size: 12pt;
-    color: #cacaca!important;
+.text-center {
+    text-align: center;
 }
-.nav-item {
-    padding-left: 10px;
+.text-right {
+    text-align: right;
 }
-#sendBtn {
-    position: relative;
-    left: 425px;
-    top: 10px;
-    border: 1px solid lightgray;
+.width-120px {
+    width: 120px;
 }
-#skill > span {
-    display: inline-block;
-    padding-right: 30px;
-    margin-right: 9px;
+.width-140px {
+    width: 140px;
 }
-#skill > span > img {
-    width: 130%;
+.width-255px {
+    width: 255px;
 }
-#skill > span:first-child > img {
-    position: 0px!important;
+.width-15 {
+    width: 15% !important;
 }
-#skill > span:nth-child(5) > img {
-    width: 90%!important;
-    position: relative;
-    left: 27px;
+.width-33 {
+    width: 33% !important;
 }
-#skill > span:nth-child(6) > img {
-    position: relative;
-    left: 16px;
+.width-48 {
+    width: 48% !important;
 }
-h3 > p {
-    font-style: italic;
+.width-50 {
+    width: 50% !important;
 }
+.width-60 {
+    width: 60% !important;
+}
+.width-70 {
+    width: 70% !important;
+}
+.width-100 {
+    width: 100% !important;
+}
+
+
