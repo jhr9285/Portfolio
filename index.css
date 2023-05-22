@@ -113,19 +113,22 @@ body, html {
     }
     #education {
         padding-bottom: 290px;
-        margin-bottom: 150px;
+        margin-bottom: 170px;
     }
     #etc {
         padding-bottom: 130px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     #skill {
-        margin-bottom: 130px;
+        margin-bottom: 150px;
+    }
+    #toy {
+        margin-bottom: 620px;
     }
     .toyBox {
         display: block !important;
         width: 100% !important;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
