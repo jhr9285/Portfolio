@@ -22,7 +22,7 @@
     <!-- Brand, Last Update Start -------------------------------------------------------------->
     <div id="brand">
         <a href="#" class="fs-15">&nbsp;JUNG HYE RIM</a>
-        <span id="update">Last Update : 2023-05-18</span>
+        <span id="update">Last Update : 2023-05-22</span>
     </div> <!-- Brand, Last Update End -->
 
     <!-- Resume Start ------------------------------------------------------------------>
@@ -30,23 +30,23 @@
         <div class="fw-bold">안녕하세요! 주니어 백엔드 개발자 정혜림입니다.</div>
 
         <!-- Contact Start ------------------------------------------------------------->
-        <div id="contact" class="mt-40 mb-40">
+        <div id="contact" class="mb-40">
             <div class="width-140px">
                 <h2>Contact.</h2>
             </div>
-            <div>
+            <div class="contactBox">
                 <span>
-                    <img src="img/email.jpg">
+                    <img src="/img/email.jpg">
                     <span class="ml-11 fs-14 d-inline-block">jhr9285@naver.com</span>
                 </span>
                 <br>
                 <span>
-                    <img src="img/call.jpg">
+                    <img src="/img/call.jpg">
                     <span class="ml-10 fs-14 d-inline-block">Please contact me by email <b>↖</b></span>
                 </span>
                 <br>
                 <span>
-                    <img src="img/github.jpg">
+                    <img src="/img/github.jpg">
                     <a href="https://github.com/jhr9285" class="ml-10 fs-14">https://github.com/jhr9285</a>
                 </span>
             </div>
@@ -55,7 +55,7 @@
         <hr>
         
         <!-- Introduce Start ------------------------------------------------------------->
-        <div id="introduce" class="mb-30 mt-40">
+        <div id="introduce" class="mb-24 mt-40">
             <div>
                 <h2>Introduce.</h2>
             </div>
@@ -91,26 +91,26 @@
             <br>
             <div>
                 <div class="width-100 mb-30">
-                    <div class="fs-15 mb-10"><b>① 운동일지 목록(회원별)</b></div>
-                    <div class="fs-14 mb-20">
+                    <div class="fs-15 mb-15"><b>① 운동일지 목록(회원별)</b></div>
+                    <div class="fs-14 mb-24">
                         &nbsp;- 로그인한 트레이너 담당 회원들의 운동내역이 PT 계약 건별 목록으로 출력됩니다.<br>
                         &nbsp;- 2개의 테이블과 1개의 인라인뷰를 JOIN하고, 작성일자 MAX값 기준 내림차순 정렬하였습니다.<br>
-                        &nbsp;- 컨트롤러에서 전송한 데이터를 JSTL(Core Taglib) 및 EL을 통해 전달 받아 사용하였습니다.
+                        &nbsp;- 컨트롤러에서 전송한 데이터를 JSTL 및 EL을 통해 전달 받아 사용하였습니다.
                     </div>
                     <img src="img/pic09.jpg" class="width-100" alt="1.운동일지 목록(회원별)">
                 </div>
                 <div class="width-100 mb-30">
-                    <div class="fs-15 mb-10 mt-20"><b>② 운동일지 목록(운동일자별)</b></div>
-                    <div class="fs-14 mb-20">
+                    <div class="fs-15 mb-15 mt-20"><b>② 운동일지 목록(운동일자별)</b></div>
+                    <div class="fs-14 mb-24">
                         &nbsp;- ①에서 PT 진행도 클릭 시 이동되는, 특정 회원의 특정 PT 계약 데이터만 볼 수 있는 페이지입니다.<br>
                         &nbsp;- 특정 회원의 특정 PT 계약 1건에 연결된 운동내역들이 운동일자 기준 목록으로 출력됩니다.<br>
-                        &nbsp;- 컨트롤러에서 전송한 데이터를 JSTL(Core Taglib) 및 EL을 통해 전달 받아 사용하였습니다.
+                        &nbsp;- 컨트롤러에서 전송한 데이터를 JSTL 및 EL을 통해 전달 받아 사용하였습니다.
                     </div>
                     <img src="img/pic10.jpg" class="width-100" alt="2.운동일지 목록(운동일자별)">
                 </div>
                 <div class="width-100 mb-30">
-                    <div class="fs-15 mb-10 mt-20"><b>③ 운동종목 선택</b></div>
-                    <div class="fs-14 mb-20">
+                    <div class="fs-15 mb-15 mt-20"><b>③ 운동종목 선택</b></div>
+                    <div class="fs-14 mb-24">
                         &nbsp;- 다양한 운동을 쉽게 선택할 수 있도록 대/중/소 분류에 맞추어 운동 목록이 출력됩니다.<br>
                         &nbsp;- 선택한 순서에 맞추어 Modal의 데이터가 운동일지 작성 페이지에 반영됩니다.<br>
                         &nbsp;- Modal, Ajax, RestController, clone() 메소드를 활용하여 동적 생성 기능을 구현하였습니다.<br>
@@ -118,8 +118,8 @@
                     <img src="img/pic11.jpg" class="width-100" alt="3.운동종목 선택">
                 </div>
                 <div class="width-100 mb-30">
-                    <div class="fs-15 mb-10 mt-20"><b>④ 운동일지</b></div>
-                    <div class="fs-14 mb-20">
+                    <div class="fs-15 mb-15 mt-20"><b>④ 운동일지</b></div>
+                    <div class="fs-14 mb-24">
                         &nbsp;- 트레이너가 작성하여 DB에 저장된 운동종목과 세트, 무게, 횟수 및 코멘트 등이 출력됩니다.</br>
                         &nbsp;- 플러스, 마이너스 버튼으로 행이 추가/삭제되고, 운동명 왼쪽의 수정 버튼을 통해 운동 수정이 가능합니다.<br>
                         &nbsp;- 수정하는 경우 submit() 메소드 실행 시 동기 통신으로 페이지 이동이 일어나는 이슈가 있어, </br>
@@ -136,19 +136,19 @@
             <div>
                 <h2>Toy Project.</h2>
             </div>
-            <div class="fs-15 mb-20">
+            <div class="fs-15 mb-10">
                 공부하면서 진행한 토이 프로젝트입니다. 각 이미지를 클릭하면 작업물 또는 시연 영상을 보실 수 있습니다.
             </div>
             <br>
             <div class="width-100 float-clear">
-                <div class="width-48 d-inline-block float-left mb-40">
+                <div class="float-left toyBox">
                     <div class="fs-15 mb-7 text-center"><b>네이버 레시피 페이지</b></div>
                     <div class="fs-14 mb-15 text-center">HTML5, CSS3, JavaScript</div>
                     <a href="toy/toy_naver_recipe/naver_recipe_jhr.html" target="_blank">
                         <img src="img/pic04.jpg" class="width-100 b-1-s-b" alt="네이버 레시피 페이지">
                     </a>
                 </div>
-                <div class="width-48 d-inline-block float-right">
+                <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>학사관리 프로그램</b></div>
                     <div class="fs-14 mb-15 text-center">Java, Swing, JDBC, MySQL</div>
                     <a href="toy/haksa.mp4" target="_blank"> 
@@ -157,30 +157,30 @@
                 </div>
             </div>
             <div class="width-100 float-clear">
-                <div class="width-48 d-inline-block float-left mb-40">
+                <div class="float-left toyBox">
                     <div class="fs-15 mb-7 text-center"><b>LED 전구 불 켜기</b></div>
                     <div class="fs-14 mb-15 text-center">Arduino, Tinkercad</div>
                     <a href="toy/arduino.mp4" target="_blank"> 
                         <img src="img/pic05.jpg" class="width-100 b-1-s-b" alt="아두이노">
                     </a>
                 </div>
-                <div class="width-48 d-inline-block float-right">
+                <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>To Do List 만들기</b></div>
-                    <div class="fs-14 mb-15 text-center">JSP(MVC Model), DBCP, Oracle, BootStrap</div>
+                    <div class="fs-14 mb-15 text-center">JSP, DBCP, Oracle, BootStrap</div>
                     <a href="toy/todolist.mp4" target="_blank">
                         <img src="img/pic06.jpg" class="width-100 b-1-s-b" alt="투두리스트">
                     </a>
                 </div>
             </div>
             <div class="width-100 float-clear">
-                <div class="width-48 d-inline-block float-left mb-50">
+                <div class="float-left toyBox">
                     <div class="fs-15 mb-7 text-center"><b>게시판 만들기</b></div>
                     <div class="fs-14 mb-15 text-center">HTML5, CSS3, jQuery, Ajax, Oracle, Spring(Security)</div>
                     <a href="toy/board.mp4" target="_blank"> 
                         <img src="img/pic08.jpg" class="width-100 b-1-s-b" alt="게시판">
                     </a>
                 </div>
-                <div class="width-48 d-inline-block float-right">
+                <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>방명록 만들기</b></div>
                     <div class="fs-14 mb-15 text-center">HTML5, SpringBoot, Thymeleaf, JPA, MariaDB</div>
                     <a href="toy/guestbook.mp4" target="_blank"> 
@@ -201,7 +201,7 @@
                 <div class="width-140px float-left">
                     <span class="d-inline-block mb-20 fs-16">Back-End</span><br>
                 </div>
-                <div class="width-70 float-left mt-1 ml-11">
+                <div class="float-left mt-1 ml-11 skillBox">
                     <span class="d-inline-block mb-24 ml-10 fs-15">Java,&nbsp; JSP,&nbsp; Spring,&nbsp; MyBatis,&nbsp; Apache,&nbsp; SpringBoot,&nbsp; Python</span><br>
                 </div>
             </div>
@@ -209,7 +209,7 @@
                 <div class="width-140px float-left">
                     <span class="d-inline-block mb-20 fs-16">DataBase</span><br>
                 </div>
-                <div class="width-70 float-left mt-1 ml-11">
+                <div class="float-left mt-1 ml-11 skillBox">
                     <span class="d-inline-block mb-22 ml-10 fs-15">Oracle,&nbsp; MySQL</span><br>
                 </div>
             </div>
@@ -217,7 +217,7 @@
                 <div class="width-140px float-left">
                     <span class="d-inline-block mb-20 fs-16">Front-End</span><br>
                 </div>
-                <div class="width-70 float-left mt-1 ml-11">
+                <div class="float-left mt-1 ml-11 skillBox">
                     <span class="d-inline-block mb-21 ml-10 fs-15">HTML5,&nbsp; CSS3,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; Ajax</span><br>
                 </div>
             </div>
@@ -225,7 +225,7 @@
                 <div class="width-140px float-left">
                     <span class="d-inline-block mb-20 fs-16">Etc</span><br>
                 </div>
-                <div class="width-70 float-left mt-1 ml-11">
+                <div class="float-left mt-1 ml-11 skillBox">
                     <span class="d-inline-block mb-24 ml-10 fs-15">Spring Security,&nbsp; VS Code</span><br>
                 </div>
             </div>
@@ -234,7 +234,7 @@
         <hr>
 
         <!-- Education Start ------------------------------------------------------------->
-        <div id="education" class="float-clear mt-40 mb-30">
+        <div id="education" class="float-clear mt-40">
             <div>
                 <h2>Education.</h2>
             </div>
@@ -242,7 +242,7 @@
                 <div class="width-255px float-left">
                     <span class="d-inline-block mb-20 fs-16 fw-bold">23.03.20 ~ 23.04.24</span><br>
                 </div>
-                <div class="width-60 float-left mt-1 ml-11">
+                <div class="float-left mt-1 ml-11 eduBox">
                     <span class="d-inline-block mb-15 ml-10 fs-15 fw-bold">
                         (디지털컨버전스)자바,파이썬 활용한 풀스택 융합 SW 개발자양성과정
                     </span>
@@ -253,28 +253,33 @@
                     <br>
                     <div>
                         <div class="float-clear">
-                            <div class="d-inline-block ml-10 mb-7 fs-14">
+                            <div class="d-inline-block ml-10 mb-10 fs-14">
                                 <b>SQL</b> &nbsp;-&nbsp; Oracle,&nbsp; MySQL
                             </div>
-                            <div class="d-inline-block ml-10 mb-7 fs-14">
+                            <br>
+                            <div class="d-inline-block ml-10 mb-10 fs-14">
                                 <b>Java</b> &nbsp;-&nbsp; Servlet,&nbsp; JSP,&nbsp; Spring,&nbsp; MyBatis,&nbsp; SpringBoot,&nbsp; JPA
                             </div>
-                            <div class="d-inline-block ml-10 mb-7 fs-14">
+                            <br>
+                            <div class="d-inline-block ml-10 mb-10 fs-14">
                                 <b>Web</b> &nbsp;-&nbsp; HTML,&nbsp; CSS,&nbsp; JavaScript,&nbsp; jQuery,&nbsp; Ajax
                             </div>
-                            <div class="d-inline-block ml-10 mb-7 fs-14">
+                            <br>
+                            <div class="d-inline-block ml-10 mb-10 fs-14">
                                 <b>BootStrap</b> &nbsp;-&nbsp; Front-End Framework
                             </div>
+                            <br>
                         </div>
                     </div>
                 </div>
             </div>
         </div> <!-- Education End -->
         
+        <br>
         <hr>
 
         <!-- Etc Start ------------------------------------------------------------->
-        <div id="etc" class="float-clear mt-40 mb-30">
+        <div id="etc" class="float-clear mt-40">
             <div>
                 <h2>Etc.</h2>
             </div>
@@ -282,12 +287,12 @@
                 <div class="width-120px float-left">
                     <span class="d-inline-block mb-20 fs-16 fw-bold">2023.04</span><br>
                 </div>
-                <div class="width-60 float-left mt-1 ml-11">
-                    <span class="d-inline-block mb-15 ml-10 fs-15 fw-bold">
+                <div class="float-left mt-1 ml-11 etcBox">
+                    <span class="d-inline-block mb-10 ml-10 fs-15 fw-bold">
                         글로벌아이티인재개발원 성적우수상 수상
                     </span>
                     <br>
-                    <span class="d-inline-block mb-15 ml-10 fs-14">
+                    <span class="d-inline-block mb-20 ml-10 fs-14">
                         (디지털컨버전스)자바,파이썬 활용한 풀스택 융합 SW 개발자양성과정
                     </span>
                 </div>
@@ -296,12 +301,12 @@
                 <div class="width-120px float-left">
                     <span class="d-inline-block mb-20 fs-16 fw-bold">2023.04</span><br>
                 </div>
-                <div class="width-60 float-left mt-1 ml-11">
-                    <span class="d-inline-block mb-15 ml-10 fs-15 fw-bold">
+                <div class="float-left mt-1 ml-11 etcBox">
+                    <span class="d-inline-block mb-10 ml-10 fs-15 fw-bold">
                         TOEIC 공인점수 취득 (790점)
                     </span>
                     <br>
-                    <span class="d-inline-block mb-15 ml-10 fs-14">
+                    <span class="d-inline-block mb-20 ml-10 fs-14">
                         영어 어학시험(YBM)
 
 
