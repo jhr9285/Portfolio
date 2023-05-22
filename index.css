@@ -1,5 +1,6 @@
 body {
     width: 80%;
+    min-width: 310px;
 }
 html {
     max-width: 100%;
@@ -13,6 +14,7 @@ body, html {
     display: block;
     width: 100%;
     height: 3%;
+    min-height: 40px;
     padding: 5px 7px;
     position: fixed;
     left: 10px;
@@ -46,8 +48,6 @@ body, html {
 #contact > div:first-child {
     height: auto;
     float: left;
-    position: relative;
-    bottom: 25px;
 }
 #contact > div:nth-child(2) > span {
     width: 100%;
@@ -60,18 +60,10 @@ body, html {
     position: relative;
     top: 6px;
 }
-#education {
-    padding-bottom: 290px;
-    margin-bottom: 1px;
-}
 #education > div:nth-child(2) > div:nth-child(2) > span,
 #education > div:nth-child(2) > div:nth-child(2) > span ~ div,
 #etc > div:first-child ~ div > div:nth-child(2) > span:first-child {
     color: #4b4f56;
-}
-#etc {
-    padding-bottom: 130px;
-    margin-bottom: 1px;
 }
 #etc > div:first-child ~ div > div:nth-child(2) > span:nth-child(3) {
     color: #757b85;
@@ -96,9 +88,6 @@ body, html {
     padding: 10px auto;
     margin: 15px auto;
 }
-#skill {
-    margin-bottom: 80px;
-}
 #skill > div:first-child ~ div > div:first-child,
 #education > div:nth-child(2) > div > span,
 #etc > div:first-child ~ div > div:nth-child(odd) > span {
@@ -116,8 +105,148 @@ body, html {
 #topBtn > button:hover {
     color: #74757a;
 }
-#toy {
-    margin-bottom: 625px;
+
+/* 반응형 CSS */
+@media (max-width: 575px) {
+    #contact {
+        margin-top: 20px;
+    }
+    #education {
+        padding-bottom: 290px;
+        margin-bottom: 150px;
+    }
+    #etc {
+        padding-bottom: 130px;
+        margin-bottom: 40px;
+    }
+    #skill {
+        margin-bottom: 130px;
+    }
+    .toyBox {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .eduBox, .etcBox, .skillBox {
+        width: 100% !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    #contact {
+        margin-top: 30px;
+    }
+    .contactBox {
+        margin-top: 25px;
+    }
+    #education {
+        padding-bottom: 290px;
+        margin-bottom: 130px;
+    }
+    #etc {
+        padding-bottom: 160px;
+    }
+    #skill {
+        padding-bottom: 80px;
+    }
+    #toy {
+        margin-bottom: 620px;
+    }
+    .toyBox {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .eduBox, .etcBox, .skillBox {
+        width: 100% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #contact {
+        margin-top: 35px;
+    }
+    .contactBox {
+        margin-top: 25px;
+    }
+    #education {
+        padding-bottom: 355px;
+    }
+    #etc {
+        padding-bottom: 160px;
+    }
+    #skill {
+        padding-bottom: 90px;
+    }
+    #toy {
+        margin-bottom: 620px;
+    }
+    .toyBox {
+        display: inline-block !important;
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .eduBox, .etcBox, .skillBox {
+        width: 100% !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #contact {
+        margin-top: 30px;
+    }
+    .contactBox {
+        margin-top: 25px;
+    }
+    #education {
+        padding-bottom: 310px;
+    }
+    #etc {
+        padding-bottom: 160px;
+    }
+    #skill {
+        padding-bottom: 80px;
+    }
+    #toy {
+        padding-bottom: 470px;
+    }
+    .toyBox {
+        display: inline-block !important;
+        width: 48% !important;
+        margin-bottom: 40px;
+    }
+    .eduBox, .etcBox, .skillBox {
+        width: 100% !important;
+    }
+}
+@media (min-width: 1200px) {
+    #contact {
+        margin-top: 30px;
+    }
+    .contactBox {
+        margin-top: 25px;
+    }
+    #education {
+        padding-bottom: 280px;
+    }
+    #etc {
+        padding-bottom: 100px;
+        margin-bottom: 15px;
+    }
+    #skill {
+        padding-bottom: 40px;
+    }
+    #toy {
+        padding-bottom: 620px;
+    }
+    .toyBox {
+        display: inline-block !important;
+        width: 48% !important;
+        margin-bottom: 40px;
+    }
+    .eduBox, .etcBox {
+        width: 60% !important;
+    }
+    .skillBox {
+        width: 70% !important;
+    }
 }
 
 /* 범용 클래스 */
