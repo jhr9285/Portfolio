@@ -1,4 +1,3 @@
-# Portfolio - Resume
-주니어 개발자 정혜림의 포트폴리오입니다.<br>
-PC버전 및 최대화된 브라우저로 읽어주시기를 권장 드립니다.<br>
-잘 부탁드립니다. 감사합니다 :)
+# Portfolio
+아래 링크의 페이지를 구성하는 포트폴리오입니다.<br>
+https://jhr9285.github.io/portfolio/
