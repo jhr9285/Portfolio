@@ -134,7 +134,7 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 492px;
+        height: 490px;
     }
     video:nth-child(n+2) {
         height: 411px; 
@@ -169,7 +169,7 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 442px;
+        height: 440px;
     }
     video:nth-child(n+2) {
         height: 391px; 
@@ -203,7 +203,7 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 442px;
+        height: 440px;
     }   
     video:nth-child(n+2) {
         height: 391px; 
@@ -237,7 +237,7 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 392px;
+        height: 390px;
     }    
     video:nth-child(n+2) {
         height: 361px; 
@@ -275,7 +275,7 @@ body, html {
         width: 70% !important;
     }
     video:first-child {
-        height: 392px;
+        height: 390px;
     }
     video:nth-child(n+2) {
         height: 361px; 
