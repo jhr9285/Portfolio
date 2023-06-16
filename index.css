@@ -134,10 +134,10 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 490px;
+        height: 490px !important;
     }
     video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
-        height: 411px; 
+        height: 411px !important; 
     }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -169,10 +169,10 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 440px;
+        height: 440px !important;
     }
     video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
-        height: 391px; 
+        height: 391px !important; 
     }    
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -203,10 +203,10 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 440px;
+        height: 440px !important;
     }   
     video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
-        height: 391px; 
+        height: 391px !important; 
     }   
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -237,10 +237,10 @@ body, html {
         width: 100% !important;
     }
     video:first-child {
-        height: 390px;
+        height: 390px !important;
     }    
     video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
-        height: 361px; 
+        height: 361px !important; 
     }   
 }
 @media (min-width: 1200px) {
@@ -275,10 +275,10 @@ body, html {
         width: 70% !important;
     }
     video:first-child {
-        height: 390px;
+        height: 390px !important;
     }
     video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
-        height: 361px; 
+        height: 361px !important; 
     }   
 }
 
