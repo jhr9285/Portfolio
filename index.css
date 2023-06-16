@@ -274,10 +274,10 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video:nth-child(2) {
+    video:first-of-type {
         height: 490px !important;
     }
-    video:nth-child(3), video:nth-child(4), video:nth-child(5), video:nth-child(6) {
+    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
         height: 411px !important; 
     }
 }
