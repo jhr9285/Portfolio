@@ -136,7 +136,7 @@ body, html {
     video:first-child {
         height: 490px;
     }
-    video:nth-child(n+2) {
+    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
         height: 411px; 
     }
 }
@@ -205,7 +205,7 @@ body, html {
     video:first-child {
         height: 440px;
     }   
-    video:nth-child(n+2) {
+    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
         height: 391px; 
     }   
 }
@@ -239,7 +239,7 @@ body, html {
     video:first-child {
         height: 390px;
     }    
-    video:nth-child(n+2) {
+    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
         height: 361px; 
     }   
 }
@@ -277,7 +277,7 @@ body, html {
     video:first-child {
         height: 390px;
     }
-    video:nth-child(n+2) {
+    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
         height: 361px; 
     }   
 }
