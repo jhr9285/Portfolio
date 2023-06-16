@@ -133,10 +133,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video:first-child {
-        height: 390px !important;
-    }    
-    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
+    video {
         height: 361px !important; 
     }   
 }
@@ -168,10 +165,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video:first-child {
-        height: 390px !important;
-    }    
-    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
+    video {
         height: 361px !important; 
     }    
 }
@@ -201,11 +195,8 @@ body, html {
     }
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
-    }
-    video:first-child {
-        height: 440px !important;
-    }   
-    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
+    } 
+    video {
         height: 391px !important; 
     }   
 }
@@ -236,10 +227,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video:first-child {
-        height: 440px !important;
-    }   
-    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
+    video {
         height: 391px !important; 
     } 
 }
@@ -274,10 +262,7 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video:first-of-type {
-        height: 490px !important;
-    }
-    video:nth-child(2), video:nth-child(3), video:nth-child(4), video:nth-child(5) {
+    video {
         height: 411px !important; 
     }
 }
