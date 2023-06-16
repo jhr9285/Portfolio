@@ -133,9 +133,9 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, img[src="img/pic04.jpg"] {
+    video {
         height: 361px !important; 
-    }   
+    }  
 }
 @media (min-width: 576px) and (max-width: 767px) {
     #contact {
@@ -165,9 +165,12 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, img[src="img/pic04.jpg"] {
+    video {
         height: 361px !important; 
-    }    
+    } 
+    img[src="img/pic04.jpg"] {
+        width: 50% !important;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #contact {
@@ -196,9 +199,12 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     } 
-    video, img[src="img/pic04.jpg"] {
+    video {
         height: 361px !important; 
-    }   
+    }  
+    img[src="img/pic04.jpg"] {
+        width: 50% !important;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #contact {
@@ -227,9 +233,12 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, img[src="img/pic04.jpg"] {
+    video {
         height: 391px !important; 
-    } 
+    }
+    img[src="img/pic04.jpg"] {
+        width: 50% !important;
+    }
 }
 @media (min-width: 1200px) {
     #contact {
@@ -262,7 +271,7 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video, img[src="img/pic04.jpg"] {
+    video {
         height: 411px !important; 
     }
 }
