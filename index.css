@@ -136,15 +136,6 @@ body, html {
     video {
         height: 361px !important; 
     } 
-    img[src="img/pic04.jpg"] {
-        display: block;
-    }
-    img[src="img/pic04_2.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_3.jpg"] {
-        display: none;
-    }  
 }
 @media (min-width: 576px) and (max-width: 767px) {
     #contact {
@@ -217,15 +208,6 @@ body, html {
     video {
         height: 361px !important; 
     }  
-    img[src="img/pic04.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_2.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_3.jpg"] {
-        display: block;
-    }  
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #contact {
@@ -257,15 +239,6 @@ body, html {
     video {
         height: 391px !important; 
     }
-    img[src="img/pic04.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_2.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_3.jpg"] {
-        display: block;
-    }  
 }
 @media (min-width: 1200px) {
     #contact {
@@ -301,15 +274,6 @@ body, html {
     video {
         height: 411px !important; 
     }
-    img[src="img/pic04.jpg"] {
-        display: none;
-    }
-    img[src="img/pic04_2.jpg"] {
-        display: block;
-    }  
-    img[src="img/pic04_3.jpg"] {
-        display: none;
-    }  
 }
 
 /* 범용 클래스 */
