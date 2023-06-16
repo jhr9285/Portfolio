@@ -133,7 +133,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, .toybox img {
+    video, img[src="img/pic04.jpg"] {
         height: 361px !important; 
     }   
 }
@@ -165,7 +165,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, .toybox img {
+    video, img[src="img/pic04.jpg"] {
         height: 361px !important; 
     }    
 }
@@ -196,8 +196,8 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     } 
-    video, .toybox img {
-        height: 391px !important; 
+    video, img[src="img/pic04.jpg"] {
+        height: 361px !important; 
     }   
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -227,7 +227,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, .toybox img {
+    video, img[src="img/pic04.jpg"] {
         height: 391px !important; 
     } 
 }
@@ -262,7 +262,7 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video, .toybox img {
+    video, img[src="img/pic04.jpg"] {
         height: 411px !important; 
     }
 }
