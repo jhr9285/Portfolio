@@ -105,6 +105,9 @@ body, html {
 #topBtn > button:hover {
     color: #74757a;
 }
+#toy1_imgbox {
+    overflow: hidden !important;
+}
 
 /* 반응형 CSS */
 @media (max-width: 575px) {
@@ -133,7 +136,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video {
+    video, #toy1_imgbox {
         height: 361px !important; 
     } 
 }
@@ -165,7 +168,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video {
+    video, #toy1_imgbox {
         height: 361px !important; 
     } 
 }
@@ -196,7 +199,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     } 
-    video {
+    video, #toy1_imgbox {
         height: 361px !important; 
     }  
 }
@@ -227,7 +230,7 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video {
+    video, #toy1_imgbox {
         height: 391px !important; 
     }
 }
