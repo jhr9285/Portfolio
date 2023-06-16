@@ -105,9 +105,6 @@ body, html {
 #topBtn > button:hover {
     color: #74757a;
 }
-#toy1_imgbox {
-    overflow: hidden !important;
-}
 
 /* 반응형 CSS */
 @media (max-width: 575px) {
