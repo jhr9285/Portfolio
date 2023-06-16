@@ -136,6 +136,9 @@ body, html {
     video:first-child {
         height: 492px;
     }
+    video:nth-child(n+2) {
+        height: 411px; 
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     #contact {
@@ -168,6 +171,9 @@ body, html {
     video:first-child {
         height: 442px;
     }
+    video:nth-child(n+2) {
+        height: 391px; 
+    }    
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #contact {
@@ -198,7 +204,10 @@ body, html {
     }
     video:first-child {
         height: 442px;
-    }    
+    }   
+    video:nth-child(n+2) {
+        height: 391px; 
+    }   
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #contact {
@@ -230,6 +239,9 @@ body, html {
     video:first-child {
         height: 392px;
     }    
+    video:nth-child(n+2) {
+        height: 361px; 
+    }   
 }
 @media (min-width: 1200px) {
     #contact {
@@ -265,6 +277,9 @@ body, html {
     video:first-child {
         height: 392px;
     }
+    video:nth-child(n+2) {
+        height: 361px; 
+    }   
 }
 
 /* 범용 클래스 */
