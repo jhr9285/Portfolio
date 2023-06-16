@@ -265,7 +265,7 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video {
+    video, #toy1_imgbox {
         height: 411px !important; 
     }
 }
