@@ -133,9 +133,9 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, #toy1_imgbox {
-        height: 361px !important; 
-    } 
+    video {
+        height: 411px !important; 
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     #contact {
@@ -165,9 +165,9 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, #toy1_imgbox {
-        height: 361px !important; 
-    } 
+    video {
+        height: 411px !important; 
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     #contact {
@@ -196,9 +196,9 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     } 
-    video, #toy1_imgbox {
-        height: 361px !important; 
-    }  
+    video {
+        height: 411px !important; 
+    } 
 }
 @media (min-width: 992px) and (max-width: 1199px) {
     #contact {
@@ -227,8 +227,8 @@ body, html {
     .eduBox, .etcBox, .skillBox {
         width: 100% !important;
     }
-    video, #toy1_imgbox {
-        height: 391px !important; 
+    video {
+        height: 411px !important; 
     }
 }
 @media (min-width: 1200px) {
@@ -262,7 +262,7 @@ body, html {
     .skillBox {
         width: 70% !important;
     }
-    video, #toy1_imgbox {
+    video {
         height: 411px !important; 
     }
 }
