@@ -12,10 +12,6 @@
 </head>
 <script type="text/javascript">
     $(document).ready(function() {
-        $('video').style('display', 'none');
-        $('video').prev('img').click(function() {
-            $(this).next('video').style('display', 'block');
-        });
         $('#brand, #topBtn').click(function() {
             $('html, body').animate({scrollTop : 0}, 800);
             return false;
@@ -155,9 +151,9 @@
                 <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>학사관리 프로그램</b></div>
                     <div class="fs-14 mb-15 text-center">Java, Swing, JDBC, MySQL</div>
-                    <!-- <img src="img/pic02.jpg" class="width-100" alt="학사관리"> -->
                     <video controls muted none controlsList="nodownload" poster="img/pic02.jpg" class="width-100">
                         <source src="toy/haksa.mp4" type="video/mp4">
+                        학사관리
                     </video>
                 </div>
             </div>
@@ -165,32 +161,36 @@
                 <div class="float-left toyBox">
                     <div class="fs-15 mb-7 text-center"><b>LED 전구 불 켜기</b></div>
                     <div class="fs-14 mb-15 text-center">Arduino, Tinkercad</div>
-                    <a href="toy/arduino.mp4" target="_blank"> 
-                        <img src="img/pic05.jpg" class="width-100 b-1-s-b" alt="아두이노">
-                    </a>
+                    <video controls muted none controlsList="nodownload" poster="img/pic05.jpg" class="width-100 b-1-s-b">
+                        <source src="toy/arduino.mp4" type="video/mp4">
+                        아두이노
+                    </video>
                 </div>
                 <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>To Do List 만들기</b></div>
                     <div class="fs-14 mb-15 text-center">JSP, DBCP, Oracle, BootStrap</div>
-                    <a href="toy/todolist.mp4" target="_blank">
-                        <img src="img/pic06.jpg" class="width-100 b-1-s-b" alt="투두리스트">
-                    </a>
+                    <video controls muted none controlsList="nodownload" poster="img/pic06.jpg" class="width-100 b-1-s-b">
+                        <source src="toy/todolist.mp4" type="video/mp4">
+                        투두리스트
+                    </video>                    
                 </div>
             </div>
             <div class="width-100 float-clear">
                 <div class="float-left toyBox">
                     <div class="fs-15 mb-7 text-center"><b>게시판 만들기</b></div>
                     <div class="fs-14 mb-15 text-center">HTML5, CSS3, jQuery, Ajax, Oracle, Spring(Security)</div>
-                    <a href="toy/board.mp4" target="_blank"> 
-                        <img src="img/pic08.jpg" class="width-100 b-1-s-b" alt="게시판">
-                    </a>
+                    <video controls muted none controlsList="nodownload" poster="img/pic08.jpg" class="width-100 b-1-s-b">
+                        <source src="toy/board.mp4" type="video/mp4">
+                        게시판
+                    </video>                      
                 </div>
                 <div class="float-right toyBox">
                     <div class="fs-15 mb-7 text-center"><b>방명록 만들기</b></div>
                     <div class="fs-14 mb-15 text-center">HTML5, SpringBoot, Thymeleaf, JPA, MariaDB</div>
-                    <a href="toy/guestbook.mp4" target="_blank"> 
-                        <img src="img/pic13.jpg" class="width-100 b-1-s-b" alt="방명록">
-                    </a>
+                    <video controls muted none controlsList="nodownload" poster="img/pic13.jpg" class="width-100 b-1-s-b">
+                        <source src="toy/guestbook.mp4" type="video/mp4">
+                        방명록
+                    </video>  
                 </div>
             </div> 
         </div>  <!-- Toy Project End -->   
